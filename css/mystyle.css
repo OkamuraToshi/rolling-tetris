@@ -2,22 +2,24 @@
 		  color: blue; 
 	}
 	a.cadlog{
-		background-color: lightblue;
 		width: fit-content;
 		border-radius: 2px;
 	}
+	
 	body {
 		  background-image: url('imagens/imgBody.jpg');
   		  background-repeat: no-repeat;
   		  background-attachment: fixed;
-  		  background-size: 100%100%;
+  		  background-size: 100%;
 	}
 
 	h1{
 		  text-align:right;
 		  font-size: 50px;
 		  color: white;
-		  -webkit-text-stroke: 3px black; /* width and color */ font-family: sans; color: white;
+		  -webkit-text-stroke: 3px black; /* width and color */ 
+		  font-family: sans; 
+		  color: white;
 	}
 
 	h2{
@@ -28,25 +30,32 @@
 		margin: 0px;
 		margin-bottom: 5px;
 	}
-	nav{
-		  padding-top: 20px;
-  		  padding-right: 20px;
-  		  padding-bottom: 20px;
-  		  padding-left: 20px;
-		  border-radius: 15px;
-		  background-color:#1E90FF;
-		  height:400px;
-		  width:260px;
-		  float:left;
-		  margin: 10px;
+	
+	img.button-send{
+	  width:30px;
+	  height:30px;
 	}
+	
 	.topnav {
 	  background-color: #191970;
 	  overflow: hidden;
-	  border-radius: 5px;
-	  margin: 5px;
+	  width: 100%;
 	}
 	
+	.topnav button{
+    transition-duration: 0.5s;
+    border-radius: 0px;
+    border: none;
+    background: none;
+    background-color: #191970;
+		color: #191970;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    width: 50px;
+    height: 40px;
+}
 	.topnav a {
 	  float: left;
 	  color: #FFFFFF;
@@ -64,20 +73,11 @@
 	  color: white;
 	}
 	header {
-		  padding-top: 10px;
-  		  padding-right: 10px;
-  		  padding-bottom: 10px;
-		  padding-left: 10px;
-		  background-image: url(imagens/tetrisbg.png);
 		  background-color: #FFFFFF;
 			background-repeat: repeat-x;
 			background-size: auto;
-  		  /*background-attachment: fixed;
-  		  background-size: 100%100%;*/
-		  border-radius: 5px;
-		  border-style: ridge;
-		  height:100px;
-		  }
+			width: 100%;
+  }
 	section {
 		  padding-top: 20px;
   		  padding-right: 20px;
@@ -121,8 +121,18 @@
 		  height: fit-content;
 		  align-content: center;
 		  margin: auto;
-		  
 	}
+	
+	section.login label{
+	  font-size: 20px;
+	  margin: 15px;
+	  font-weight: bold;
+	}
+	
+	section.login input{
+	  margin: 10px;
+	}
+	
 	p{
 	  font-family:"Times New Roman", Times, serif;
 	  text-align:justify
@@ -145,10 +155,10 @@
     	margin-right: auto;
 	}
 	IMG.displayed {
-      display: block;
+    display: block;
 	  width: 400px;
 	  height: 490px;
-      margin-left: auto;
+    margin-left: auto;
 	  margin-right: auto 
 	  
 	}	  
@@ -185,9 +195,9 @@
 		background-color: #0099ff;
 		color: white;
 		text-align: center;
-		font-size: 12px;
+		font-size: 20px;
 		font-weight: bold;
-		width: fit-content;
+		width: 68%;
 		height: fit-content;
 		margin-bottom: 10px;
 	}
